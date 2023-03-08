@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+}
+
+body {
+    background-color: hsl(218, 23%, 16%);
+    font-family: 'Manrope', sans-serif;
+}
+
+#container{
+    width: 100vw;
+    height: 95vh;
+    background: hsl(218, 23%, 16%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#box{
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+    align-items: center;
+}
+
+#adviceNumber {
+    color: hsl(150, 100%, 66%);
+    font-size: 14px;
+    letter-spacing: 4px;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+#adviceText {
+    color: hsl(193, 38%, 86%);
+    font-size: 24px;
+    text-align: center;
+    width: 450px;
+    padding-bottom: 30px;
+}
+
+
+#btn {
+    background-color: hsl(150, 100%, 66%);
+    width: 60px;
+    padding: 15px;
+    border-radius: 100px;
+    border: none;
+    position: relative;
+    top:28px;
+    
+}
+
+#btn:hover{
+    cursor: pointer;
+    background-color: hsl(150, 48%, 59%);
+}
+
+#icone {
+    background-color: hsl(150, 100%, 66%);
+    color: hsl(218, 23%, 16%);
+    
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media only screen and (max-width:428px){
+    #box{
+        width: 340px;
+    }
+    #adviceText {
+        
+        text-align: center;
+        width: 300px;
+        padding-bottom: 30px;
+    }
+}
