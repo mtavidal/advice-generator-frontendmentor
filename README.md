@@ -5,7 +5,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution: [URL](https://mtavidal.github.io/advice-generator-frontendmentor/)
 
 
 ### Built with
